@@ -1,0 +1,39 @@
+.badge {
+	background-color: tomato;
+	width: 16px;
+	height: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 600;
+	border-radius: 8px;
+	font-size: 10px;
+}
+
+.badge__settings {
+	background-color: tomato;
+	width: 16px;
+	height: 16px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: 600;
+	border-radius: 8px;
+	font-size: 10px;
+	position: absolute;
+	top: 2px;
+	right: -30px;
+}
+
+.badge_singledot {
+	background-color: tomato;
+	width: 7px;
+	height: 7px;
+	display: block;
+	border-radius: 8px;
+	position: absolute;
+	left: 55px;
+	top: -10px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="EasyCoders, курс по HTML + CSS" />
+		<title>Добро пожаловать в KakaoClone</title>
+		<script
+			src="https://kit.fontawesome.com/d9ca8e98d7.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<div class="status-bar fixed">
+			<div class="status-bar__column">
+				<span>20:43</span>
+				<i class="fas fa-location-arrow fa-xs"></i>
+			</div>
+			<div class="status-bar__column">
+				<i class="fas fa-signal fa-xs"></i>
+				<i class="fas fa-wifi fa-xs"></i>
+				<i class="fas fa-battery-three-quarters"></i>
+			</div>
+		</div>
+
+		<header class="welcome-header">
+			<h1 class="welcome-header__title">Добро пожаловать в KakaoClone</h1>
+			<p class="welcome-header__text">
+				Если у Вас есть аккаунт - войдите с помощью email или номера телефона.
+			</p>
+		</header>
+
+		<form action="friends.html" method="GET" id="login-form">
+			<input
+				name="username"
+				type="text"
+				placeholder="Email или номер телефона"
+				required
+			/>
+			<input name="password" type="password" placeholder="Пароль" />
+
+			<button type="submit">Войти</button>
+			<button type="submit">Регистрация</button>
+			<a href="#">Найти аккаунт или восстановить пароль</a>
+		</form>
+		<!-- <script>  Скрипт для блокировки кнопок
+			let btn = document.querySelectorAll("button[type = submit]");
+			btn.forEach((button) =>
+				addEventListener("click", (event) => event.preventDefault())
+			);
+		</script> -->
+		<div id="no-mobile">
+			<span>Ваш экран слишком большой :(</span>
+		</div>
+	</body>
+</html>
